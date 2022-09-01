@@ -5,3 +5,18 @@ di komputer tersebut. Ini mirip seperti layanan penyimpanan cloud tetapi dengan 
 * Github dapat di ibaratkan seperti medsosnya para programmer. Karena kalian dapat membagikan, memerkan project, aplikasi, program, dll yang sudah
 kalian buat.
 
+* Jika kalian menggunakan Github, kalian tidak perlu lagi menginstall Git untuk dapat mengelola file / repository pada project kalian di website Github.
+Kalian juga dapat menjalankan aplikasi, program, atau lainnya, dari project kalian yang berada di Github.
+
+* Umumnya, orang akan menggunakan Github untuk mengupload source kode / project yang sudah dibuat di komputer lokal. Tentu, untuk dapat melakukan hal ini,
+kalian perlu menginstall Git di komputer / laptop lokal kalian.
+
+* Visualisasi dari perbedaan Git dengan Github:
+# Git
+--> Software atau aplikasi untuk mengelola file dalam folder
+
+# Github
+--> Sebuah website yang di install Git didalamnya dan dapat diakses secara online (melalui internet)
+
+!!! Perlu kalian ingat, Git dan Github itu berbeda !!!
+Silahkan baca ulang mengenai "Pengenalan Git" dan "Pengenalan Github" jika kalian masih belum paham.
