@@ -22,10 +22,10 @@ Perumpamaan Git VS Pengelola (manager) file di komputer / hp kalian
 
 # Pengelola File:
 
---> buat "file.txt" --> buat file baru, namanya "file_1.txt" karena yang sudah ditambahkan isinya --> buat file baru lagi, namanya "file_2.txt" karena ada yang ditambah dan dihapus --> terdapat 3 file. Yaitu, "file.txt", "file_2.txt", "file_3.txt" dan hanya terlihat terakhir setelah file di save.
+--> buat "file.txt" --> buat file baru, namanya "file_1.txt" karena yang sudah ditambahkan isinya --> buat file baru lagi, namanya "file_2.txt" karena ada yang ditambah dan dihapus --> terdapat 3 file. Yaitu, "file.txt", "file_2.txt", "file_3.txt" dan hanya dapat melihat perubahan yang terjadi pada file secara manual.
 
 
 # Git:
 
---> buat "file.txt" --> masih satu file yang sama, tapi isinya sudah ditambahkan --> masih satu file yang sama, tapi ada yang ditambah dan dihapus --> Tetap satu file, yaitu "file.txt" dan bisa dilihat apa saja yang dirubah pada filenya.
+--> buat "file.txt" --> masih satu file yang sama, tapi isinya sudah ditambahkan --> masih satu file yang sama, tapi ada yang ditambah dan dihapus --> Tetap satu file, yaitu "file.txt" dan bisa dilihat apa saja yang dirubah pada filenya (HIJAU untuk kode / teks yang ditambahkan dan MERAH untuk kode / teks yang dihapus).
 
