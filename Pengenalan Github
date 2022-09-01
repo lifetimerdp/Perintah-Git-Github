@@ -17,6 +17,8 @@ kalian perlu menginstall Git di komputer / laptop lokal kalian.
 
 - Pull adalah proses mengambil atau menyalin source code / project yang sudah dibuat, dari Github ke komputer lokal
 
+++ Agar dapat melakukan Push & Pull, kalian harus melakukan clone atau duplikasi dari repository yang dituju ++
+
 * Visualisasi dari perbedaan Git dengan Github:
 # Git
 --> Software atau aplikasi untuk mengelola file dalam folder
