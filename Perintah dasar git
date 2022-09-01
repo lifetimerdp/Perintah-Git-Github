@@ -7,6 +7,13 @@ Singkatnya Folder = Repository
 Ada juga istilah lainnya seperti commit.
 Commit adalah segala hal yang berhubungan dengan perubahan pada file. Bisa juga di ibaratkan seperti riwayat perubahan
 pada file. Mulai dari waktu (kapan filenya dirubah), isinya (kode / teks apa yang dihapus atau ditambahkan pada file).
-Ini mirip sama mekanisme save-savean lah, bedanya jika kalian menggunakan commit, apa yang ditambahkan dan apa yang dihapus
+Ini mirip sama mekanisme save-savean pada file. Bedanya, jika kalian menggunakan commit, apa yang ditambahkan dan apa yang dihapus
 pasti terlihat.
+
+Kelebihan Git dibandingkan save-savean file di penyimpanan lokal
+- Git menyimpan seluruh histori / riwayat pada file
+- Menggunakan Git, kalian bisa kembali ke file lama (file yang sebelumnya)
+- Gak usah panik jika ada yang salah tulis (karena bisa kembali ke savean file sebelumnya)
+- Online
+- Bisa kolaborasi sama orang lain!. Maksudnya adalah bisa barengan ngubah isi file sama orang lain.
 
