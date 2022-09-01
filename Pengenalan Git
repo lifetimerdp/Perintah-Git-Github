@@ -4,13 +4,13 @@ Git ini digunakan untuk mengelola segala perubahan yang terjadi pada sebuah file
 * Folder pada Git dinamakan Repository / Repo, (bukan folder lagi namanya).
 Singkatnya Folder = Repository
 
-* Ada juga istilah lainnya seperti commit.
+* Ada juga istilah lainnya seperti commit, hash, checkout, remote, clone.
 Commit adalah segala hal yang berhubungan dengan perubahan pada file. Bisa juga di ibaratkan seperti riwayat perubahan
 pada file. Mulai dari waktu (kapan filenya dirubah), isinya (kode / teks apa yang dihapus atau ditambahkan pada file).
 Ini mirip sama mekanisme save-savean pada file. Bedanya, jika kalian menggunakan commit, apa yang ditambahkan dan apa yang dihapus
 pasti terlihat.
 
-* Kelebihan Git dibandingkan save-savean file di penyimpanan lokal
+* Kelebihan Git dibandingkan pengelola file yang biasanya tedapat di komputer lokal
 - Git menyimpan seluruh histori / riwayat pada file
 - Menggunakan Git, kalian bisa kembali ke file lama (file yang sebelumnya)
 - Gak usah panik jika ada yang salah tulis (karena bisa kembali ke savean file sebelumnya)
