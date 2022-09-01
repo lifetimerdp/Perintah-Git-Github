@@ -16,4 +16,5 @@ Kelebihan Git dibandingkan save-savean file di penyimpanan lokal
 - Gak usah panik jika ada yang salah tulis (karena bisa kembali ke savean file sebelumnya)
 - Online
 - Bisa kolaborasi sama orang lain!. Maksudnya adalah bisa barengan ngubah isi file sama orang lain.
+- Gak perlu buat file baru untuk file yang sudah dirubah isinya (karena apa yang berubah, sudah kelihatan di histori filenya)
 
