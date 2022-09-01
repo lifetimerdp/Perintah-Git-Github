@@ -25,3 +25,17 @@ pasti terlihat.
 # Git:
 --> 1). buat "file.txt" --> 2). masih satu file yang sama, tapi isinya sudah ditambahkan --> 3). masih satu file yang sama, tapi ada yang ditambah dan dihapus --> 4). Tetap satu file, yaitu "file.txt" dan bisa dilihat apa saja yang dirubah pada filenya (HIJAU untuk kode / teks yang ditambahkan dan MERAH untuk kode / teks yang dihapus).
 
+* Branch atau cabang adalah duplikasi file atau duplikasi repository dengan konten atau isi yang berbeda. Nantinya kedua file / repository ini,
+dapat digabungkan menjadi 1 file / repository. Proses menggabungkan ini, disebut sebagai "merge".
+
+# Visualisasi Branch:
+--> 1). fileku.txt --> fileku.txt --> dst.
+                 |
+                 | --> fileku_1.txt --> dst.
+
+* Merge adalah penggabungan 2 branch (2 cabang) file / repository, menjadi 1 file atau repository utuh.
+# Visualisasi Branch:
+--> 1). fileku.txt --> fileku.txt --> fileku.txt ------> |
+                 |                                       |--> file_final.txt
+                 | --> fileku_1.txt --> fileku_1.txt --> |
+
