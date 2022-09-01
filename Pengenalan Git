@@ -10,7 +10,18 @@ pada file. Mulai dari waktu (kapan filenya dirubah), isinya (kode / teks apa yan
 Ini mirip sama mekanisme save-savean pada file. Bedanya, jika kalian menggunakan commit, apa yang ditambahkan dan apa yang dihapus
 pasti terlihat.
 
-- hash adalah kode unik yang terdapat pada setiap file dan histori dari file tersebut
+- Hash adalah kode unik yang terdapat pada setiap file dan histori dari file tersebut (kalian dapat melihat hash (kode unik) tersebut, 
+disamping tombol history file)
+
+- Checkout adalah proses beralih atau berpindah dari satu commit ke commit lainnya (misalnya berpindah dari commit sekarang --> commit yang sebelumnya)
+
+- Remote adalah sumber yang memiliki repository, Bisa dari Github, Bitbucket, Gitlab, dan penyedia lainnya
+
+- Clone adalah proses mengambil atau menyalin seluruh isi dari sebuah repository dari remote ke komputer lokal
+
+- Push adalah proses mengirimkan perubahan file / repo dari komputer lokal ke remote (Github, Gitlab, Bitbucket, dll)
+
+- Pull adalah proses mengambil perubahan file / repo dari remote (Github, Gitlab, Bitbucket, dll) ke komputer lokal   
 
 * Kelebihan Git dibandingkan pengelola file yang biasanya tedapat di komputer lokal
 - Git menyimpan seluruh histori / riwayat pada file
@@ -35,7 +46,7 @@ dapat digabungkan menjadi 1 file / repository. Proses menggabungkan ini, disebut
                  |
                  | --> fileku_1.txt --> dst.
 
-* Merge adalah penggabungan 2 branch (2 cabang) file / repository, menjadi 1 file atau repository utuh.
+* Merge adalah penggabungan 2 branch (2 cabang) atau lebih, dari file / repository, menjadi 1 file atau repository utuh.
 # Visualisasi Branch:
 --> 1). fileku.txt --> fileku.txt --> fileku.txt ------> |
                  |                                       |--> file_final.txt
