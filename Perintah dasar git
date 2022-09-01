@@ -1,16 +1,16 @@
-Git adalah sebuah VCS (Version Control Sytem), kalian dapat meng-ibaratkannya seperti sebuah software.
+* Git adalah sebuah VCS (Version Control Sytem), kalian dapat meng-ibaratkannya seperti sebuah software.
 Git ini digunakan untuk mengelola segala perubahan yang terjadi pada sebuah file yang terdapat di Folder.
 
-Folder pada Git dinamakan Repository / Repo, (bukan folder lagi namanya).
+* Folder pada Git dinamakan Repository / Repo, (bukan folder lagi namanya).
 Singkatnya Folder = Repository
 
-Ada juga istilah lainnya seperti commit.
+* Ada juga istilah lainnya seperti commit.
 Commit adalah segala hal yang berhubungan dengan perubahan pada file. Bisa juga di ibaratkan seperti riwayat perubahan
 pada file. Mulai dari waktu (kapan filenya dirubah), isinya (kode / teks apa yang dihapus atau ditambahkan pada file).
 Ini mirip sama mekanisme save-savean pada file. Bedanya, jika kalian menggunakan commit, apa yang ditambahkan dan apa yang dihapus
 pasti terlihat.
 
-Kelebihan Git dibandingkan save-savean file di penyimpanan lokal
+* Kelebihan Git dibandingkan save-savean file di penyimpanan lokal
 - Git menyimpan seluruh histori / riwayat pada file
 - Menggunakan Git, kalian bisa kembali ke file lama (file yang sebelumnya)
 - Gak usah panik jika ada yang salah tulis (karena bisa kembali ke savean file sebelumnya)
@@ -18,14 +18,10 @@ Kelebihan Git dibandingkan save-savean file di penyimpanan lokal
 - Bisa kolaborasi sama orang lain!. Maksudnya adalah bisa barengan ngubah isi file sama orang lain.
 - Gak perlu buat file baru untuk file yang sudah dirubah isinya (karena apa yang berubah, sudah kelihatan di histori filenya)
 
-Perumpamaan Git VS Pengelola (manager) file di komputer / hp kalian
-
+* Perumpamaan Git VS Pengelola (manager) file di komputer / hp kalian
 # Pengelola File:
-
---> buat "file.txt" --> buat file baru, namanya "file_1.txt" karena yang sudah ditambahkan isinya --> buat file baru lagi, namanya "file_2.txt" karena ada yang ditambah dan dihapus --> terdapat 3 file. Yaitu, "file.txt", "file_2.txt", "file_3.txt" dan hanya dapat melihat perubahan yang terjadi pada file secara manual.
-
+--> 1). buat "file.txt" --> 2). buat file baru, namanya "file_1.txt" karena yang sudah ditambahkan isinya --> 3). buat file baru lagi, namanya "file_2.txt" karena ada yang ditambah dan dihapus --> 4). terdapat 3 file. Yaitu, "file.txt", "file_2.txt", "file_3.txt" dan hanya dapat melihat perubahan yang terjadi pada file secara manual.
 
 # Git:
-
---> buat "file.txt" --> masih satu file yang sama, tapi isinya sudah ditambahkan --> masih satu file yang sama, tapi ada yang ditambah dan dihapus --> Tetap satu file, yaitu "file.txt" dan bisa dilihat apa saja yang dirubah pada filenya (HIJAU untuk kode / teks yang ditambahkan dan MERAH untuk kode / teks yang dihapus).
+--> 1). buat "file.txt" --> 2). masih satu file yang sama, tapi isinya sudah ditambahkan --> 3). masih satu file yang sama, tapi ada yang ditambah dan dihapus --> 4). Tetap satu file, yaitu "file.txt" dan bisa dilihat apa saja yang dirubah pada filenya (HIJAU untuk kode / teks yang ditambahkan dan MERAH untuk kode / teks yang dihapus).
 
