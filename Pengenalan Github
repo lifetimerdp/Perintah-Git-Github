@@ -8,8 +8,14 @@ kalian buat.
 * Jika kalian menggunakan Github, kalian tidak perlu lagi menginstall Git untuk dapat mengelola file / repository pada project kalian di website Github.
 Kalian juga dapat menjalankan aplikasi, program, atau lainnya, dari project kalian yang berada di Github.
 
-* Umumnya, orang akan menggunakan Github untuk mengupload source kode / project yang sudah dibuat di komputer lokal. Tentu, untuk dapat melakukan hal ini,
+* Umumnya, orang akan menggunakan Github untuk mengupload source code / project yang sudah dibuat di komputer lokal. Tentu, untuk dapat melakukan hal ini,
 kalian perlu menginstall Git di komputer / laptop lokal kalian.
+
+* Terdapat juga beberapa istilah yang sering digunakan seperti Push & Pull
+
+- Push adalah proses mengupload source code / project yang sudah dibuat, dari komputer lokal ke Github
+
+- Pull adalah proses mengambil atau menyalin source code / project yang sudah dibuat, dari Github ke komputer lokal
 
 * Visualisasi dari perbedaan Git dengan Github:
 # Git
