@@ -1,2 +1,2 @@
-# Perintah-Git
-Berisi dasar-dasar perintah untuk Git
+# Dasar-dasar Git & Github
+Berisi pengenalan & perintah umum untuk Git & Github
