@@ -1,1 +1,12 @@
-Git adalah sebuah VCS (Version Control Sytem), kalian dapat meng-ibaratkannya seperti sebuah software. Git ini digunakan untuk mengelola segala perubahan yang terjadi pada sebuah file.
+Git adalah sebuah VCS (Version Control Sytem), kalian dapat meng-ibaratkannya seperti sebuah software.
+Git ini digunakan untuk mengelola segala perubahan yang terjadi pada sebuah file yang terdapat di Folder.
+
+Folder pada Git dinamakan Repository / Repo, (bukan folder lagi namanya).
+Singkatnya Folder = Repository
+
+Ada juga istilah lainnya seperti commit.
+Commit adalah segala hal yang berhubungan dengan perubahan pada file. Bisa juga di ibaratkan seperti riwayat perubahan
+pada file. Mulai dari waktu (kapan filenya dirubah), isinya (kode / teks apa yang dihapus atau ditambahkan pada file).
+Ini mirip sama mekanisme save-savean lah, bedanya jika kalian menggunakan commit, apa yang ditambahkan dan apa yang dihapus
+pasti terlihat.
+
