@@ -11,13 +11,19 @@ Kalian juga dapat menjalankan aplikasi, program, atau lainnya, dari project kali
 * Umumnya, orang akan menggunakan Github untuk mengupload source code / project yang sudah dibuat di komputer lokal. Tentu, untuk dapat melakukan hal ini,
 kalian perlu menginstall Git di komputer / laptop lokal kalian.
 
-* Terdapat juga beberapa istilah yang sering digunakan seperti Push & Pull
+* Terdapat juga beberapa istilah yang sering digunakan seperti Push, Pull & Fork
 
 - Push adalah proses mengupload source code / project yang sudah dibuat, dari komputer lokal ke Github
 
 - Pull adalah proses mengambil atau menyalin source code / project yang sudah dibuat, dari Github ke komputer lokal
 
 ++ Agar dapat melakukan Push & Pull, kalian harus melakukan clone atau duplikasi dari repository yang dituju ++
+
+- Fork adalah menduplikasi repository orang lain yang terdapat di Github ke akun Github kita
+
+* Fork dan Clone itu berbeda!
+  Fork: duplikasi repository dari Github ke Github
+  Clone: duplikasi repository dari Github ke komputer lokal
 
 * Visualisasi dari perbedaan Git dengan Github:
 # Git
