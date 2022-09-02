@@ -5,7 +5,12 @@
   Area komputer lokal --> Ruang pengelola atau Repository Git (Umumnya disebut dengan "staging area") --> Area commit (area untuk menyimpan perubahan)
 
 2. Menambahkan file ke repository Git
+
+# menambahkan satu persatu
 ---> git add [nama file]
+
+# langsung semua file
+---> git add .
 
 3. Cara cek perubahan yang terjadi di Ruang pengelola atau Repository Git
 ---> git status
@@ -15,4 +20,19 @@
 # Sebelum bisa melakukan commit di komputer lokal, kalian harus mengidentifikasi diri kalian. Tujuannya, agar Git mengetahui siapa yang melakukan commit.
 ---> git config --global user.name "nama atau username kalian"
 ---> git config --global user.email "alamatemailmu@gmail.com"
+
+# Lakukan commit
+---> git commit -m "tulis catatan untuk file-nya"
+
+  ket.
+    -m: artinya message atau pesan
+    
+# Melihat histori commit
+---> git log
+
+  - melihat beberapa histori commit saja (mulai dari commit paling baru ke commit sebelumnya, dst)
+  ---> git log -5
+  
+  ket.
+    -5 adalah 5 commit terakhir (bisa 6, 7, 8, dst)
 
