@@ -13,15 +13,17 @@ pasti terlihat.
 - Hash adalah kode unik yang terdapat pada setiap file dan histori dari file tersebut (kalian dapat melihat hash (kode unik) tersebut, 
 disamping tombol history file)
 
-- Checkout adalah proses beralih atau berpindah dari satu commit ke commit lainnya (misalnya berpindah dari commit sekarang --> commit yang sebelumnya)
+- Checkout adalah beralih atau berpindah dari satu commit ke commit lainnya (misalnya berpindah dari commit sekarang --> commit yang sebelumnya)
 
 - Remote adalah sumber yang memiliki repository, Bisa dari Github, Bitbucket, Gitlab, dan penyedia lainnya
 
-- Clone adalah proses mengambil atau menyalin seluruh isi dari sebuah repository dari remote ke komputer lokal
+- Clone adalah mengambil atau menyalin seluruh isi dari sebuah repository remote ke komputer lokal
 
-- Push adalah proses mengirimkan perubahan file / repo dari komputer lokal ke remote (Github, Gitlab, Bitbucket, dll)
+- Push adalah proses mengirimkan perubahan (file / repo) dari komputer lokal ke remote (Github, Gitlab, Bitbucket, dll)
+  Push: dari komputer lokal ke remote (Github, Gitlab, Bitbucket atau lainnya)
 
-- Pull adalah proses mengambil perubahan file / repo dari remote (Github, Gitlab, Bitbucket, dll) ke komputer lokal   
+- Pull adalah proses mengambil perubahan (file / repo) dari remote (Github, Gitlab, Bitbucket, dll) ke komputer lokal 
+  Pull: dari remote (Github, Gitlab, Bitbucket atau lainnya) ke komputer lokal
 
 * Kelebihan Git dibandingkan pengelola file yang biasanya tedapat di komputer lokal
 - Git menyimpan seluruh histori / riwayat pada file
