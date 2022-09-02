@@ -42,10 +42,13 @@ ket:
 
 5. Melakukan checkout
 
-# Mengembalikan satu file yang telah dihapus
+# Cara mengembalikan satu file yang telah dihapus
 ---> git checkout 13ae2 -- namafilenya
 
 ket:
-  13ae2 adalah 5 kode unik pertama dari hash file-nya
+  13ae2 adalah diambil dari kode hash dari filenya (5 kode unik pertama saja)
   -- adalah untuk menargetkan file yang ingin dikembalikan
+
+# Setelah itu, lakukan commit pada file yang baru dikembalikan tadi
+---> git commit -m "mengembalikan file yang dihapus"
 
