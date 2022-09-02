@@ -1,0 +1,18 @@
+1. Perintah mengubah Folder di komputer lokal menjadi Sebuah Repository (otomatis akan membuat sebuah folder baru bernama ".git")
+---> git init
+
+# Memahami Alur kerja Git
+  Area komputer lokal --> Ruang pengelola atau Repository Git (Umumnya disebut dengan "staging area") --> Area commit (area untuk menyimpan perubahan)
+
+2. Menambahkan file ke repository Git
+---> git add [nama file]
+
+3. Cara cek perubahan yang terjadi di Ruang pengelola atau Repository Git
+---> git status
+
+4. Cara melakukan commit
+
+# Sebelum bisa melakukan commit di komputer lokal, kalian harus mengidentifikasi diri kalian. Tujuannya, agar Git mengetahui siapa yang melakukan commit.
+---> git config --global user.name "nama atau username kalian"
+---> git config --global user.email "alamatemailmu@gmail.com"
+
