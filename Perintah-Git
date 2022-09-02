@@ -24,7 +24,7 @@
 # Lakukan commit
 ---> git commit -m "tulis catatan untuk file-nya"
 
-ket.
+ket:
   -m: artinya message atau pesan
     
 # Melihat histori commit
@@ -36,7 +36,16 @@ ket.
   + melihat histori commit dari file tertentu
   ---> git log -- namafilenya
   
-  ket.
+  ket:
     -5 adalah 5 commit terakhir (bisa 6, 7, 8, dst)
-    -- adalah melihat detail dari log (jika file dihapus, atau lainnya)
+    -- adalah melihat detail log dari satu file (misalnya, jika file dihapus, diubah, atau lainnya)
+
+5. Melakukan checkout
+
+# Mengembalikan satu file yang telah dihapus
+---> git checkout 13ae2 -- namafilenya
+
+ket:
+  13ae2 adalah 5 kode unik pertama dari hash file-nya
+  -- adalah untuk menargetkan file yang ingin dikembalikan
 
