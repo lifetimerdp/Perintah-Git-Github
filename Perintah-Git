@@ -102,4 +102,5 @@ Terdapat dua tipe Merge:
   ket:
     -m adalah message atau pesan
 
-# 
+8. Menghubungkan repo lokal ke remote (Github, Gitlab atau Bitbucket)
+---> 
