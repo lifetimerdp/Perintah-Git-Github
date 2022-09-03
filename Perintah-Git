@@ -73,6 +73,8 @@ ket:
 # Cara melihat semua branch dalam bentuk visual (ada jalurnya, dll)
 ---> git log --all --decorate --oneline --graph
 
+++Cara baca jalurnya dari bawah ke atas (jalur bawah adalah jalur yang lama dan jalur diatas adalah jalur baru)++
+
 # Menghapus branch (harus merge dulu)
 ---> git branch -d namabranchnya
 
