@@ -26,6 +26,9 @@
 
 ket:
   -m: artinya message atau pesan
+  
+# Lakukan git add & git commit secara bersamaan khusus untuk file yang sudah pernah dimodifikasi (cara lihat status file-nya menggunakan perintah git status)
+---> git commit -am "tulis catatan untuk filenya"
     
 # Melihat histori commit
 ---> git log
