@@ -4,6 +4,7 @@
 # Memahami Alur kerja Git
   Area komputer lokal --> Ruang pengelola atau Repository Git (Umumnya disebut dengan "staging area") --> Area commit (area untuk menyimpan perubahan)
 
+
 2. Menambahkan file ke repository Git
 
 # menambahkan satu persatu
@@ -12,8 +13,10 @@
 # langsung semua file
 ---> git add .
 
+
 3. Cara cek perubahan yang terjadi di Ruang pengelola atau Repository Git
 ---> git status
+
 
 4. Cara melakukan commit
 
@@ -44,17 +47,20 @@ ket:
     -5 adalah 5 commit terakhir (bisa 6, 7, 8, dst)
     -- adalah melihat detail log dari satu file (misalnya, jika file dihapus, diubah, atau lainnya)
 
-5. Melakukan checkout
 
-# Cara mengembalikan satu file yang telah dihapus
+5. Melakukan checkout (berpindah)
+
+# Cara mengembalikan satu file yang telah dihapus menggunakan checkout
 ---> git checkout 13ae2 -- namafilenya
+---> git commit -m "mengembalikan file yang dihapus"
 
 ket:
   13ae2 adalah diambil dari kode hash dari filenya (5 kode unik pertama saja)
   -- adalah untuk menargetkan file yang ingin dikembalikan
 
-# Setelah itu, lakukan commit pada file yang baru dikembalikan tadi
----> git commit -m "mengembalikan file yang dihapus"
+# Cara checkout (berpindah) ke branch lainnya
+---> git checkout namabranchnya
+
 
 6. Branch
 
