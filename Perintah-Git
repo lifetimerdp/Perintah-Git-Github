@@ -73,20 +73,31 @@ ket:
 # Cara melihat semua branch dalam bentuk visual (ada jalurnya, dll)
 ---> git log --all --decorate --oneline --graph
 
-# Menghapus branch
+# Menghapus branch (harus merge dulu)
 ---> git branch -d namabranchnya
 
 ket:
   -d artinya delete atau menghapus
 
+# Menghapus branch tanpa harus merge
+---> git branch -D namabranchnya
+
 
 7. Merge
 
 Terdapat dua tipe Merge:
-- Fast Forward: Gunakan ini ketika menggabungkan branch yang merupakan cabang dari branch master (branch utama / default)
-- Three-way Merge: Gunakan ini ketika 
+- Fast Forward: ketika menggabungkan branch yang merupakan cabang dari branch master (branch utama / default)
+- Three-way Merge: ketika branch utama telah digabungkan dengan branch lainnya, tetapi ingin menggabungkannya lagi dengan branch lainnya sekali lagi.
+                   Perintah yang digunakan sama saja dengan fast forward, ini hanya terjadi dibelakang layar (terlihat seperti 3 jalur jika dilihat
+                   menggunakan "git log --all --decorate --oneline --graph")
 
 # Cara melakukan merge (sebelum melakukan merge, checkout (pindahkan) ke branch master atau branch utama)
 ---> git merge namabranchnya
+
+  Bisa juga langsung menambahkan catatan (agar tidak masuk ke editor message nantinya)
+  ---> git merge -m namabranchnya
+  
+  ket:
+    -m adalah message atau pesan
 
 # 
