@@ -27,7 +27,8 @@
 ket:
   -m: artinya message atau pesan
   
-# Lakukan git add & git commit secara bersamaan khusus untuk file yang sudah pernah dimodifikasi (cara lihat status file-nya menggunakan perintah git status)
+# Lakukan git add & git commit secara bersamaan khusus untuk file yang sudah pernah dimodifikasi (cara lihat status modifikasi file-nya
+  menggunakan perintah git status)
 ---> git commit -am "tulis catatan untuk filenya"
     
 # Melihat histori commit
@@ -54,4 +55,15 @@ ket:
 
 # Setelah itu, lakukan commit pada file yang baru dikembalikan tadi
 ---> git commit -m "mengembalikan file yang dihapus"
+
+6. Branch
+
+# Melihat semua branch yang tersedia (warna hijau / ada bintangnya, adalah branch yang sedang digunakan)
+---> git branch
+
+# Membuat branch baru
+---> git branch namabranchnya
+
+# Cara melihat semua branch dalam bentuk visual (ada jalurnya, dll)
+---> git log --all --decorate --oneline --graph
 
