@@ -73,6 +73,12 @@ ket:
 # Cara melihat semua branch dalam bentuk visual (ada jalurnya, dll)
 ---> git log --all --decorate --oneline --graph
 
+# Menghapus branch
+---> git branch -d namabranchnya
+
+ket:
+  -d artinya delete atau menghapus
+
 
 7. Merge
 
@@ -83,3 +89,4 @@ Terdapat dua tipe Merge:
 # Cara melakukan merge (sebelum melakukan merge, checkout (pindahkan) ke branch master atau branch utama)
 ---> git merge namabranchnya
 
+# 
