@@ -64,7 +64,7 @@ ket:
 
 6. Branch
 
-# Melihat semua branch yang tersedia (warna hijau / ada bintangnya, adalah branch yang sedang digunakan)
+# Melihat semua branch yang tersedia (warna hijau dan ada bintangnya, adalah branch yang sedang digunakan)
 ---> git branch
 
 # Membuat branch baru
@@ -72,4 +72,14 @@ ket:
 
 # Cara melihat semua branch dalam bentuk visual (ada jalurnya, dll)
 ---> git log --all --decorate --oneline --graph
+
+
+7. Merge
+
+Terdapat dua tipe Merge:
+- Fast Forward: Gunakan ini ketika menggabungkan branch yang merupakan cabang dari branch master (branch utama / default)
+- Three-way Merge: Gunakan ini ketika 
+
+# Cara melakukan merge (sebelum melakukan merge, checkout (pindahkan) ke branch master atau branch utama)
+---> git merge namabranchnya
 
