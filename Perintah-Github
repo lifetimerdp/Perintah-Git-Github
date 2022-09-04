@@ -4,3 +4,5 @@
 ---> masukin personal token
 ---> git config --global credential.helper cache
 
+2. Cek progress repo yang di Github
+---> git fetch
