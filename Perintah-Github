@@ -1,9 +1,11 @@
 1. Cara kirim hasil coding dari komputer lokal ke github
+---> git add .
+---> git commit -m "pesan anda"
 ---> git push
 ---> masukin username github
 ---> masukin personal token
 ---> git config --global credential.helper cache
 
-2. Cek progress repo yang di Github
+2. Cara cek progress repo yang di Github
 ---> git fetch
 ---> git status
