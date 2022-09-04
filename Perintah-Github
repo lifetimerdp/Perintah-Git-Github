@@ -1,0 +1,6 @@
+1. Cara kirim hasil coding dari komputer lokal ke github
+---> git push
+---> masukin username github
+---> masukin personal token
+---> git config --global credential.helper cache
+
