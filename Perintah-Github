@@ -67,5 +67,12 @@ Contoh: remotenya origin, nama branchnya ajukanfiturbaru ---> git push origin --
 
 7. Gitignore
 Gitignore adalah sebuah file khusus yang dibuat di dalam repository, yang digunakan untuk memilih, file apa saja yang
-tidak ingin ikut ditambahkan saat kita melakukan "git add ." dan "git commit" (umunya, setiap folder di windows dan macos, terdapat file yang tersembunyi)
+tidak ingin ikut ditambahkan saat kita melakukan "git add ." dan "git commit"
 
+# Contoh isi file .gitignore
+  Contoh kasus: Saya tidak ingin file "python-bot.py", folder bernama Akun, dan file dengan ekstensi .exe ikut ditambahkan
+                saat melakukan git add .
+                
+  isi file .gitignore: python-bot.py
+                       Akun/
+                       *.exe
