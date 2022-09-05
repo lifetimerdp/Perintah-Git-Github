@@ -76,3 +76,7 @@ tidak ingin ikut ditambahkan saat kita melakukan "git add ." dan "git commit"
   isi file .gitignore: python-bot.py
                        Akun/
                        *.exe
+# Cara otomatis dan rekomendasi file apa saja yang sebaiknya dimasukkan di .gitignore
+---> buka https://gitignore.io
+---> tulis sistem operasi, framework yang kalian gunakan, dan code editor yang kalian pakai
+
