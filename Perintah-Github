@@ -59,3 +59,7 @@ Contoh: nama remotenya origin, maka lakukan ---> git fetch origin
 ---> git merge namaremote/namabranchnya
 Contoh: nama remotenya origin dan namabranchnya main ---> git merge origin/main
 
+6. Hapus branch secara tuntas
+---> git branch -d namabranchnya
+---> git push namaremote-dari-reponya --delete namabranch-yang-mau-dihapus
+Contoh: remotenya origin, nama branchnya ajukanfiturbaru ---> git push origin --delete ajukanfiturbaru
