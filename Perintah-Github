@@ -80,3 +80,22 @@ tidak ingin ikut ditambahkan saat kita melakukan "git add ." dan "git commit"
 ---> buka https://gitignore.io
 ---> tulis sistem operasi, framework yang kalian gunakan, dan code editor yang kalian pakai
 
+8. Cara lain untuk menyocokkan isi branch atau cara alternatif selain melakukan merge (Menggunakan Rebase)
+Rebase memiliki kelebihan dibandingkan merge, yaitu jika kita melihat histori commit pada repo yang dilakukan rebase. Maka,
+jalur dari commit yang terjadi akan selalu Fast Forward (tidak akan terjadi three-way merge (atau jalan cabang tiga)). 
+Intinya, menggunakan rebase, branch yang di merge / digabungkan, akan selalu satu jalur commit, keuntungan dari satu jalur commit adalah
+tidak akan menghasilkan commit yang baru, saat merge selesai
+
+---> pindah ke branch yang terdapat fitur tambahan atau apapun itu, yang ingin ditambahkan ke branch utama
+---> git checkout branch2
+---> git rebase master
+---> git log --all --decorate --oneline --graph
+
+++ Jika branch utama (master) ketinggalan commitnya, kalian lakukan rebase sekali lagi. Tetapi, dengan tujuan rebase yang berbeda ++
+---> Gak perlu checkout lagi, karena sudah berada di branch yang ingin melakukan rebase
+---> git rebase branch2
+
+# Lakukan push ke github (jika perlu)
+---> git push -u namaremotenya namabranchnya
+
+
