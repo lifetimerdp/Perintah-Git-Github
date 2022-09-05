@@ -1,11 +1,61 @@
 1. Cara kirim hasil coding dari komputer lokal ke github
 ---> git add .
 ---> git commit -m "pesan anda"
----> git push
+---> git push -u namaremote namabranch-tujuan
 ---> masukin username github
 ---> masukin personal token
 ---> git config --global credential.helper cache
 
+++ pastikan saat push sesuatu, selalu sertakan -u namaremote namabranch-tujuan. Jangan git push saja,
+   alasannya adalah, karena akan membuat bingung jika terdapat banyak remote dan branch yang berbeda pada satu repo yang terhubung ++
+
 2. Cara cek progress repo yang di Github
 ---> git fetch
 ---> git status
+
+3. Menghubungkan repo lokal ke remote (Github, Gitlab atau Bitbucket) (biasanya untuk repository baru yang masih kosong, bahkan readme.md tidak ada)
+---> pergi atau masuk ke repo di komputer lokal
+---> git remote add origin https://github.com/lifetimerdp/lifetimerdp.github.io.git
+---> git branch -M main
+---> git push -u origin main
+
+ket:
+  -M artinya branch baru
+  -u artinya ke mana (git push -u artinya mau push ke mana?)
+  origin adalah nama remotenya (cek remote -> git remote -v)
+  main adalah tujuan branchnya
+
+# Cek remote yang sudah terhubung
+---> git remote
+
+# Beda repository beda juga remotenya
+---> git remote -v
+---> git remote remove origin
+---> git remote add origin https://github.com/lifetimerdp/lifetimerdp.github.io.git
+---> git branch -M main
+---> git push -u origin main
+
+ket:
+  origin adalah penamaan default dari remote (sesuaikan jika anda menamai dengan nama lain)
+
+4. Menghubungkan repo lokal ke dua remote yang berbeda (biasanya dari remote akun dan repo kita sendiri, dan repo orang lain yang kita lakukan fork.
+   Tujuannya adalah, agar kita tau apa saja perubahan yang terjadi pada kedua repository dari dua remote tersebut)
+
+# Cek remote yang terhubung secara detail
+---> git remote -v
+
+++ Jika melakukan clone (repo github ke lokal), maka otomatis remote akan langsung terhubung (remote 1 sudah terhubung).
+Cek menggunakan perintah "git remote" ++
+
+# Hubungkan remote 2
+---> git remote add namaremote2 https://link-reponya.git
+---> git fetch namaremote2
+---> git log --all --decorate --oneline --graph
+
+5. Menyocokkan repo di komputer lokal dengan repo di Github
+---> git fetch namaremotenya
+Contoh: nama remotenya origin, maka lakukan ---> git fetch origin
+
+---> git merge namaremote/namabranchnya
+Contoh: nama remotenya origin dan namabranchnya main ---> git merge origin/main
+
